@@ -172,3 +172,187 @@ A indentação conduz o olhar.
 Você percebe que programar é também uma questão de layout.
 
 E, quando internaliza isso, o fluxo de leitura se torna natural — quase como se o cérebro entendesse os blocos antes mesmo de ler as palavras.
+
+Estruturas condicionais e de repetição são o esqueleto do raciocínio em qualquer linguagem. Em Python, elas ganham uma fluidez quase narrativa — basta olhar a indentação e os dois-pontos para entender o que acontece. Vamos passear por elas com calma.
+
+---
+
+## **Condicionais: o programa aprendendo a decidir**
+
+Uma condicional é uma encruzilhada do código. Você faz uma pergunta, e de acordo com a resposta, segue um caminho.
+
+### **if — o guardião principal**
+
+Ele testa uma condição e executa um bloco se ela for verdadeira.
+
+```python
+if idade >= 18:
+    print("Entrada permitida")
+```
+
+O “`:`” abre o bloco.
+A indentação diz o que pertence ao bloco.
+
+### **elif — opções intermediárias**
+
+Você encadeia hipóteses:
+
+```python
+if temperatura > 30:
+    print("Quente")
+elif temperatura > 20:
+    print("Agradável")
+else:
+    print("Fresco")
+```
+
+Python avalia de cima para baixo e para no primeiro caso verdadeiro.
+Esse padrão torna o raciocínio linear e direto.
+
+### **else — o “se nada disso…”**
+
+É a rede de segurança.
+Se nenhuma condição anterior se encaixar, cai aqui.
+
+---
+
+## **Operador ternário — decisão compacta**
+
+Para decisões curtas, Python tem uma forma expressiva:
+
+```python
+mensagem = "Adulto" if idade >= 18 else "Menor"
+```
+
+É útil para escolhas simples, não para lógicas complexas.
+
+---
+
+## **Repetições: o programa aprendendo a iterar**
+
+Estruturas de repetição permitem que o código caminhe por coleções ou repita ações até que uma condição deixe de ser verdadeira.
+
+---
+
+## **for — o explorador de sequências**
+
+O `for` em Python não é um contador automático; ele **itera sobre itens**.
+Isso o aproxima mais de uma frase: “para cada coisa no conjunto…”
+
+```python
+for fruta in ["maçã", "pera", "uva"]:
+    print(fruta)
+```
+
+Você pode percorrer strings:
+
+```python
+for letra in "python":
+    print(letra)
+```
+
+Ou usar `range()` quando precisa de uma sequência numérica:
+
+```python
+for i in range(5):   # 0, 1, 2, 3, 4
+    print(i)
+```
+
+Se quiser começar por outro número:
+
+```python
+range(2, 6)  # 2, 3, 4, 5
+```
+
+Ou ainda controlar o passo:
+
+```python
+range(0, 10, 2)  # 0, 2, 4, 6, 8
+```
+
+O `for` é a estrela do Python: legível, previsível e poderoso.
+
+---
+
+## **while — o laço condicionado**
+
+O `while` gira enquanto a condição for verdadeira.
+
+```python
+contador = 0
+
+while contador < 3:
+    print("Rodando...")
+    contador += 1
+```
+
+É ótimo para situações em que o número de repetições não é conhecido de antemão — loops que dependem de eventos, sensores, entrada do usuário, etc.
+
+Mas cuidado: se a condição nunca mudar, vira loop infinito.
+
+---
+
+## **Interrupções de laço**
+
+O Python te dá três ferramentas que ajudam o fluxo dentro de loops.
+
+### **break — sai do loop imediatamente**
+
+```python
+for n in range(10):
+    if n == 5:
+        break
+    print(n)
+```
+
+Quando `n == 5`, o loop acaba — como puxar o freio de mão.
+
+### **continue — pula para a próxima iteração**
+
+```python
+for n in range(6):
+    if n % 2 == 0:
+        continue
+    print(n)  # só números ímpares
+```
+
+Ele interrompe só o ciclo atual do loop, não o loop inteiro.
+
+### **else em loops — o detalhe elegante**
+
+Pouca gente usa, mas ele existe:
+
+```python
+for n in range(5):
+    if n == 10:
+        break
+else:
+    print("O número 10 não apareceu")
+```
+
+O bloco `else` só é executado se o loop **não** encontrar um `break`.
+
+É quase uma frase lógica: “se percorri tudo sem parar, então…”
+
+---
+
+## **Compreensões de lista (bonus evolutivo)**
+
+Se o Python tivesse uma assinatura musical, seria isso:
+
+```python
+quadrados = [x**2 for x in range(6)]
+```
+
+É uma forma compacta de expressar um loop de transformação.
+Quando você dominar condicionais e loops tradicionais, compreensões vão abrir uma porta para soluções concisas e elegantes.
+
+---
+
+## **Costurando tudo**
+
+As estruturas condicionais permitem escolher caminhos.
+Os loops permitem repetir caminhos.
+E a indentação coloca tudo em camadas visuais que guiam o olhar.
+
+Quando você entende esse trio — decisão, repetição e estrutura — começa a sentir o Python como uma história que se desenrola, linha após linha.
