@@ -6,4 +6,4 @@
 
 ## Conteúdo
 - [01 - Primeiros passos com Python e Versionamento de Código](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/01-primeiros-passos-com-python-e-versionamento-de-codigo)
-- [02 - Dominando Funções e Boas Práticas em Python]()
+- [02 - Dominando Funções e Boas Práticas em Python](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/02-dominando-funcoes-e-boas-praticas-em-python)
