@@ -8,3 +8,4 @@
 - [04 - Tipos de Operadores com Python]()
 - [05 - Estruturas Condicionais e de Repetição em Python]()
 - [06 - Manipulando Strings com Python]()
+- [07 - Trabalhando com Listas em Python]()
