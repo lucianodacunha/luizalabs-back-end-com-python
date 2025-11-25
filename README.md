@@ -7,3 +7,4 @@
 - [03 - Conhecendo a Linguagem de Programação Python]()
 - [04 - Tipos de Operadores com Python]()
 - [05 - Estruturas Condicionais e de Repetição em Python]()
+- [06 - Manipulando Strings com Python]()
