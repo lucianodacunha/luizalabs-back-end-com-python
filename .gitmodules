@@ -1,1 +1,4 @@
 
+[submodule "02-desafios-de-projetos-crie-um-portifolio-vencedor/src/dio-lab-open-source"]
+	path = 02-desafios-de-projetos-crie-um-portifolio-vencedor/src/dio-lab-open-source
+	url = git@github.com:lucianodacunha/dio-lab-open-source.git
