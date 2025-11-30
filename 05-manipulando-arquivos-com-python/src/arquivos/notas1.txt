@@ -1,0 +1,7 @@
+Introdução a manipulação de arquivos
+Abrindo e fechando arquivos Lendo de um arquivo
+Escrevendo em um arquivo
+Gerenciando arquivos e diretórios
+Tratamento de exceções em manipulação de arquivos
+Boas práticas na manipulação de arquivos
+Trabalhando com arquivos CSV
