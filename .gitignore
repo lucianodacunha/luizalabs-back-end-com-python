@@ -50,3 +50,5 @@ htmlcov/
 # other
 slides/
 arquivo-confidencial
+.env-pipenv
+.env-poetry

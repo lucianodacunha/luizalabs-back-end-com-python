@@ -17,7 +17,6 @@ Esse exercício junta leitura de CSV, conversão de tipos e formatação.
 """
 
 import csv
-import random
 from pathlib import Path
 
 
@@ -37,9 +36,11 @@ def func10():
             print("".center(50, "="))
             for row in reader:
                 lancamentos += 1
-                gastos += float(row['valor'])
-                print(f"{str(row['descricao']).capitalize():<25} " 
-                    + f"R$ {float(row['valor']): .2f}")
+                gastos += float(row["valor"])
+                print(
+                    f"{str(row['descricao']).capitalize():<25} "
+                    + f"R$ {float(row['valor']): .2f}"
+                )
             print("".center(50, "-"))
             print(f"{'Total de gastos':<25} R$ {gastos: .2f}")
             print(f"{'Total de lançamentos':<25} {lancamentos}")
@@ -48,6 +49,7 @@ def func10():
         print(f"Falha ao manipular o arquivo: {e}")
     except Exception as e:
         print(f"Falha inesperada: {e}")
+
 
 def _cria_gastos(csv_path):
     campos = ["descricao", "valor"]
