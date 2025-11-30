@@ -1,0 +1,20 @@
+In the face of ambiguity, refuse the temptation to guess.
+The Zen of Python, by Tim Peters
+The Zen of Python, by Tim Peters
+Although practicality beats purity.
+Although never is often better than *right* now.
+Sparse is better than dense.
+Special cases aren't special enough to break the rules.
+Beautiful is better than ugly.
+If the implementation is hard to explain, it's a bad idea.
+The Zen of Python, by Tim Peters
+Although that way may not be obvious at first unless you're Dutch.
+Although that way may not be obvious at first unless you're Dutch.
+Unless explicitly silenced.
+Complex is better than complicated.
+If the implementation is hard to explain, it's a bad idea.
+Flat is better than nested.
+There should be one-- and preferably only one --obvious way to do it.
+Special cases aren't special enough to break the rules.
+Special cases aren't special enough to break the rules.
+Flat is better than nested.

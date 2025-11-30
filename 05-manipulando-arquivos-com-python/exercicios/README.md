@@ -147,11 +147,3 @@ Total gasto: R$ 1034.50
 ```
 
 Esse exercício junta leitura de CSV, conversão de tipos e formatação.
-
----
-
-Se quiser, posso:
-
-* gerar versões resolvidas,
-* criar a lista em nível básico/intermediário/avançado,
-* ou transformar tudo isso em um PDF para seu repositório do bootcamp.
