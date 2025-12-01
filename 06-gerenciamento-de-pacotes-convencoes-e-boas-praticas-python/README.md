@@ -449,14 +449,9 @@ O projeto não é só código: é também a forma de rodá-lo.
 
 A moral: gerenciamento de dependências não é glamour, mas é o que separa um ambiente saudável de um “funciona só na minha máquina”.
 
-Se quiser, no próximo passo posso te ajudar a montar um `pyproject.toml` de exemplo pro seu bootcamp, com:
-
-* dependências comuns (black, ruff, pytest)
-* versão mínima de Python
-* config de formatação e lint centralizadas.
-
 ---
-Perfeito, bora montar um “kit padrão” de projeto Python bem organizado, cobrindo:
+
+Kit padrão” de projeto Python, cobrindo:
 
 * `.venv` gerenciado por você
 * `requirements.txt` (incluindo dev)
@@ -765,10 +760,3 @@ Um bom caminho é:
 
 4. **Padronizar ferramenta de formatação/lint**
    Black, isort, flake8/ruff → deixam seu código consistente em qualquer máquina.
-
----
-
-Se você quiser, no próximo passo eu posso:
-
-* montar um **exemplo concreto de `requirements.txt` + `requirements-dev.txt`** pro seu bootcamp
-* ou um **`pyproject.toml` inicial** com Poetry, já incluindo black, isort, flake8 e pytest, pronto pra colar no seu repositório.
