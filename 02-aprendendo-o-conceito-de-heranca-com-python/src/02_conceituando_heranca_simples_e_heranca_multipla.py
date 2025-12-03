@@ -1,0 +1,13 @@
+# simples
+class A:
+    ...
+
+class B(A):
+    ...
+
+# multipla
+class C:
+    ...
+
+class D(A, C):
+    ...
