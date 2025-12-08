@@ -1,0 +1,95 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: DIO Blog - FastAPI
+meta:
+  id: wrk_b2cfe1a167934185a3f025b733925cf5
+  created: 1765213573589
+  modified: 1765213573589
+  description: ""
+collection:
+  - name: Posts
+    meta:
+      id: fld_2e33d5d80bdc416aa4256de255445cc1
+      created: 1765213630600
+      modified: 1765214231117
+      sortKey: -1765213630600
+      description: ""
+    children:
+      - url: localhost:8000/posts
+        name: create
+        meta:
+          id: req_33b29103e3dd4a61a7b455f32bf9a2a1
+          created: 1765213582947
+          modified: 1765214942348
+          isPrivate: false
+          description: ""
+          sortKey: -1765213644704
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"title": "Criando endpoints do tipo post com body parameter 2",
+            	"published": "on",
+            	"author": "Luciano C"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/12.1.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: localhost:8000/posts
+        name: read all
+        meta:
+          id: req_78bcc894549e4a8399321801ed884cc7
+          created: 1765214156731
+          modified: 1765214664929
+          isPrivate: false
+          description: ""
+          sortKey: -1765213644804
+        method: GET
+        parameters:
+          - name: limit
+            value: "10"
+            description: ""
+            disabled: false
+          - name: published
+            value: on
+            description: ""
+            disabled: false
+        headers:
+          - name: User-Agent
+            value: insomnia/12.1.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_4601e6e89ee054bbf6b10e2d89920faf0534a74d
+    created: 1765213573591
+    modified: 1765213573591
+environments:
+  name: Base Environment
+  meta:
+    id: env_4601e6e89ee054bbf6b10e2d89920faf0534a74d
+    created: 1765213573590
+    modified: 1765213573590
+    isPrivate: false
