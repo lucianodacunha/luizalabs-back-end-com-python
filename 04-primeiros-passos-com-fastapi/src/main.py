@@ -1,8 +1,13 @@
+from datetime import UTC, datetime
+
 from fastapi import FastAPI
 
 app = FastAPI()
 
 
-@app.get('/')
-def read_route():
-    return {"message": "Hello World!!!"}
+@app.get('/post/{framework}')
+def read_posts(framework: str):
+    return {"posts": [
+        {"title": f"Criando uma aplicação com {framework}", "date": datetime.now(UTC)},
+        {"title": f"Internacionalizando uma app {framework}", "date": datetime.now(UTC)}
+    ]}
