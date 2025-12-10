@@ -9,3 +9,4 @@
 - [02 - Dominando Funções e Boas Práticas em Python](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/02-dominando-funcoes-e-boas-praticas-em-python)
 - [03 - Programação Orientada a Objetos com Python](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/03-programacao-orientada-a-objetos-com-python?tab=readme-ov-file)
 - [04 - Fundamentos de APIs REST com FastAPI](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/04-fundamentos-de-apis-rest-com-fastapi)
+- [05 - Integrando Python com Banco de Dados Relacionais](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/05-integrando-python-com-banco-de-dados-relacionais)
