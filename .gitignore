@@ -52,3 +52,5 @@ slides/
 arquivo-confidencial
 .env-pipenv
 .env-poetry
+*.sqlite
+*.db
