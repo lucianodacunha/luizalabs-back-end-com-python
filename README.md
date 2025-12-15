@@ -1,4 +1,4 @@
-# Fundamentos de APIs REST com FastAPI
+# Integrando Python com Banco de Dados Relacionais
 
 ## Conteúdo
 
