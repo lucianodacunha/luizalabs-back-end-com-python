@@ -11,3 +11,4 @@
 - [04 - Fundamentos de APIs REST com FastAPI](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/04-fundamentos-de-apis-rest-com-fastapi)
 - [05 - Integrando Python com Banco de Dados Relacionais](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/05-integrando-python-com-banco-de-dados-relacionais)
 - [06 - Evoluindo com APIs Assíncronas com FastAPI](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/06-evoluindo-com-apis-assincronas-com-fastapi)
+- [07- Aumentando a Produtividade com IA e Versionamento de Código](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/07-aumentando-a-produtividade-com-ia-e-versionamento-de-codigo)
