@@ -65,6 +65,11 @@ Apresentação, instalação e configuração do Github Pilot, Técnicas de Prom
 
 🔗 [Acessar Módulo 07](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/07-aumentando-a-produtividade-com-ia-e-versionamento-de-codigo)
 
+### Módulo 08 - Mentorias
+Microsserviços, ORM e Modelos de IA com Python
+
+🔗 [Acessar Módulo 08](https://github.com/lucianodacunha/luizalabs-back-end-com-python/tree/08-mentorias)
+
 ---
 
 ## 🚀 Como Utilizar este Repositório
